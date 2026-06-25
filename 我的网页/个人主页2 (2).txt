@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kejie Cai</title>
+
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    background:#fafafa;
+    color:#111;
+    line-height:1.7;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.avatar{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+h1{
+    margin-top:24px;
+    font-size:48px;
+    font-weight:700;
+}
+
+.bio{
+    margin-top:10px;
+    color:#666;
+    font-size:18px;
+}
+
+.quote{
+    max-width:600px;
+    margin-top:24px;
+    font-size:20px;
+    font-style:italic;
+}
+
+.section{
+    max-width:800px;
+    margin:0 auto;
+    padding:80px 24px;
+}
+
+.section h2{
+    margin-bottom:24px;
+    font-size:28px;
+}
+
+.card{
+    background:white;
+    padding:24px;
+    border-radius:20px;
+    margin-bottom:16px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.05);
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+}
+
+.footer{
+    text-align:center;
+    padding:80px 20px;
+    color:#888;
+}
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<section class="hero">
+
+
+
+<img src="avatar.jpg" class="avatar">
+
+
+<h1>Cora</h1>
+
+
+
+<p class="bio">
+Writer · Runner · Explorer
+</p>
+
+
+
+<p class="quote">
+努力建造自己的理想生活
+</p>
+
+
+
+</section>
+
+
+
+<section class="section">
+
+
+
+<h2>🏃 Currently Running</h2>
+
+
+
+<div class="card">
+Zone 2 Running
+</div>
+
+
+
+<div class="card">
+Learning to run slower instead of harder.
+</div>
+
+
+</section>
+
+
+
+<section class="section">
+
+
+
+<h2>📚 Currently Reading</h2>
+
+
+
+<div class="card">
+《即使以最微弱的光》
+</div>
+
+
+
+<div class="card">
+《丹尼斯的重生》
+</div>
+
+
+<div class="card">
+Anything that makes me rethink life.
+</div>
+
+
+</section>
+
+
+<section class="section">
+
+
+<h2>✈ Places I'd Love To Be</h2>
+
+
+<div class="card">
+📍Robin's arms.
+</div>
+
+
+
+<div class="card">
+📍 Taylor Swift's arms.
+</div>
+
+
+<div class="card">
+📍 Anywhere but working place.
+</div>
+
+
+</section>
+
+
+<section class="section">
+
+
+
+<h2>💭 Random Thoughts</h2>
+
+
+<div class="card">
+Does anyone else think 6pm is actually pretty late for gertting off work?
+</div>
+
+
+
+<div class="card">
+Why are fish heads so terrifying?
+</div>
+
+
+
+<div class="card">
+Bros are so stupid.
+</div>
+
+
+
+</section>
+
+
+
+<div class="footer">
+
+
+
+</div>
+
+
+</body>
+
+
+
+</html>
